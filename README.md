@@ -10,3 +10,6 @@ Paket ini merupakan implementasi acuan lengkap untuk mendemonstrasikan dan menin
 5. Tinjau hasil menggunakan `REVIEW_SCORECARD.md`.
 
 Paket acuan berisi kode pembuat laporan yang sudah lengkap, isi yang telah disetujui, laporan yang telah dihasilkan, bukti kegagalan, dan hasil verifikasi yang diharapkan.
+
+
+testing catatan talita
