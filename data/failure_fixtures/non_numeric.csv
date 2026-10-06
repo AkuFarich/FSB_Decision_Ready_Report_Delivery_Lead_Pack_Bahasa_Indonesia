@@ -1,0 +1,26 @@
+metric,rank,dimension,value
+total_transactions,1,,22
+total_revenue,1,,Rp8jt
+aov,1,,397500
+unique_buyers,1,,14
+repeat_buyers,1,,8
+top_products,1,P006 | Webcam,19
+top_products,2,P008 | Notebook,2
+top_products,3,P007 | Desk Lamp,1
+category_revenue,1,Electronics,8550000
+category_revenue,2,Home Office,125000
+category_revenue,3,Stationery,70000
+city_revenue,1,Bandung,900000
+city_revenue,2,Jakarta,900000
+city_revenue,3,Surabaya,900000
+city_revenue,4,Unknown,900000
+city_revenue,5,Yogyakarta,900000
+city_revenue,6,Medan,575000
+city_revenue,7,Bali,485000
+city_revenue,8,Semarang,485000
+city_revenue,9,Bekasi,450000
+city_revenue,10,Bogor,450000
+city_revenue,11,Depok,450000
+city_revenue,12,Makassar,450000
+city_revenue,13,Malang,450000
+city_revenue,14,Solo,450000

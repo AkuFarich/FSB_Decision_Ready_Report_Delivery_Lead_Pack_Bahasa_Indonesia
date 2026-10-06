@@ -1,0 +1,39 @@
+{
+  "title": "Laporan Penjualan Siap Keputusan",
+  "scope": "Data uji gerbang: 22 transaksi valid; hanya gambaran sesaat",
+  "insights": [
+    {
+      "title": "Pendapatan sangat terkonsentrasi pada Electronics",
+      "evidence": "Electronics menghasilkan Rp8.550.000 dari total Rp8.745.000 atau 97,8%.",
+      "meaning": "Total pendapatan sensitif terhadap satu kategori.",
+      "action": "Validasi tren periode lain dan periksa margin sebelum mengambil keputusan persediaan.",
+      "boundary": "Data uji berukuran kecil serta tidak memiliki tanggal transaksi atau margin."
+    },
+    {
+      "title": "Webcam mendominasi jumlah unit",
+      "evidence": "Webcam terjual sebanyak 19 dari total 22 unit.",
+      "meaning": "Permintaan pada data uji terkonsentrasi pada satu produk.",
+      "action": "Periksa persediaan, waktu tunggu, dan konsistensi permintaan pada periode lain.",
+      "boundary": "Jumlah unit yang tinggi tidak membuktikan laba tertinggi."
+    },
+    {
+      "title": "Analisis kota memiliki data hilang yang material",
+      "evidence": "Kota Unknown menyumbang Rp900.000.",
+      "meaning": "Peringkat kota bergantung pada kebijakan penanganan nilai kosong.",
+      "action": "Perbaiki kelengkapan data kota dan tampilkan Unknown secara jelas.",
+      "boundary": "Nilai Unknown tidak boleh dipindahkan ke kota tertentu tanpa bukti."
+    }
+  ],
+  "assumptions": [
+    "tx_id unik dan setiap transaksi mewakili satu baris transaksi yang valid.",
+    "Harga produk diperlakukan sebagai harga satuan transaksi."
+  ],
+  "limitations": [
+    "Data uji berukuran kecil dan tidak memiliki rentang waktu sehingga tren tidak dapat dinilai.",
+    "Data biaya, margin, promosi, atau persediaan tidak tersedia; pendapatan tidak sama dengan laba.",
+    "Analisis bersifat deskriptif dan tidak membuktikan hubungan sebab-akibat."
+  ],
+  "next_steps": [
+    "Tambahkan tanggal dan margin, kemudian ulangi analisis berdasarkan periode dan kategori."
+  ]
+}
